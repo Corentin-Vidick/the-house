@@ -20,6 +20,10 @@ h1, h2 {
     color: #d13c3a;   
 }
 
+h2 {
+    font-size: 200%;
+}
+
 #logo{
     float: left;
     font-size: 500%;
@@ -92,7 +96,7 @@ h1, h2 {
     width: 33%;
     float: right;
     border: solid 1px;
-    margin-top: -126px;
+    margin-top: -360px;
     background-color: #4BC67C;
 }
 
@@ -114,6 +118,7 @@ h1, h2 {
 }
 
 #categories-list a {
+    font-size: 150%;
     text-decoration: none;
     color: #D13C3A;
 }
