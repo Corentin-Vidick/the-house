@@ -122,30 +122,24 @@ h1, h2 {
     color: #af5248;
 }
 
-#outdoor-image{
+.side-image{
     height: 100px;
     width: 100px;
-    background: url(../images/outdoor\ resize\ 200.jpg);
-    background-size: cover;
     float: right;
     margin-right: 10px;
-    position: relative;
+}
+
+#outdoor-image{
+    background: url(../images/outdoor\ resize\ 200.jpg);
+    background-size: cover;
 }
 
 #indoor-image{
-    height: 100px;
-    width: 100px;
     background: url(../images/indoors.JPG);
     background-size: cover;
-    float: right;
-    margin-right: 10px;
 }
 
 #animals-image{
-    height: 100px;
-    width: 100px;
     background: url(../images/VID00502.jpg);
     background-size: cover;
-    float: right;
-    margin-right: 10px;
 }
