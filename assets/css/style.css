@@ -67,7 +67,7 @@ h1, h2 {
     background: url(../images/banner.jpg) no-repeat center center;
 }
 
-/* Right-hand three boxes */
+/* Main section of page */
 #main {
     height: 800px;
 }
@@ -102,13 +102,15 @@ h1, h2 {
 }
 
 #categories-list {
-    margin-top: 31px;
+    margin-top: 50px;
     text-align: left;
     margin-left: 50px;
 }
 
 #categories-list li{
     list-style-type: none;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 #categories-list a {
@@ -118,4 +120,32 @@ h1, h2 {
 
 #categories-list a:hover {
     color: #af5248;
+}
+
+#outdoor-image{
+    height: 100px;
+    width: 100px;
+    background: url(../images/outdoor\ resize\ 200.jpg);
+    background-size: cover;
+    float: right;
+    margin-right: 10px;
+    position: relative;
+}
+
+#indoor-image{
+    height: 100px;
+    width: 100px;
+    background: url(../images/indoors.JPG);
+    background-size: cover;
+    float: right;
+    margin-right: 10px;
+}
+
+#animals-image{
+    height: 100px;
+    width: 100px;
+    background: url(../images/VID00502.jpg);
+    background-size: cover;
+    float: right;
+    margin-right: 10px;
 }
