@@ -74,11 +74,11 @@ h2 {
 /* Main section of page */
 #main {
     height: 800px;
+    width: 60%;
+    float: left;
 }
 
 .main-left {
-    width: 60%;
-    float: left;
     border: solid 1px;
     margin-top: 20px;
     background-color: #4BC67C;
@@ -92,17 +92,16 @@ h2 {
     margin-left: 50px;
 }
 
-.main-right {
-    width: 33%;
+aside {
     float: right;
+    width: 33%;
     border: solid 1px;
-    margin-top: -360px;
+    margin-top: 20px;
     background-color: #4BC67C;
 }
 
 .main-right > h2 {
-    float: right;
-    margin-right: 100px;
+    margin-left: 100px;
 }
 
 #categories-list {
