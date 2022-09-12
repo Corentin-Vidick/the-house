@@ -52,3 +52,17 @@ h1, h2 {
 #menu a:hover, #contest:hover {
     color: #af5248;
 }
+
+/* Banner image */
+#banner-box {
+    height: 300px;
+    width: 100%;
+    overflow: visible;
+    position: top;
+}
+
+#banner-image {
+    height: 300px;
+    width: 100%;
+    background: url(../images/banner.jpg) no-repeat center center;
+}
