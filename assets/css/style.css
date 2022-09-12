@@ -1,3 +1,54 @@
-body{
-    background-color: blue;
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap');
+
+/* Removes all margins, padding and borders to start on blank slate */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: open sans, sans-serif;
+    font-weight: 300;
+    color: #af5248;
+}
+
+/* Headings, logo */
+h1, h2 {
+    font-family: lobster, sans-serif;
+    color: #d13c3a;   
+}
+
+#logo{
+    float: left;
+    font-size: 500%;
+    margin-left: 200px;
+}
+
+/* Navigation menu and contest */
+#menu, #contest {
+    line-height: 100px;
+    font-family: lobster, sans-serif; 
+    font-size: 150%;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+#contest {
+    float: right;
+    margin-right: 20px;
+}
+
+#menu a, #contest {
+    text-decoration: none;
+    color: #D13C3A;
+}
+
+#menu a:hover, #contest:hover {
+    color: #af5248;
 }
