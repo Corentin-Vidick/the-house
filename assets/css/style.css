@@ -66,3 +66,56 @@ h1, h2 {
     width: 100%;
     background: url(../images/banner.jpg) no-repeat center center;
 }
+
+/* Right-hand three boxes */
+#main {
+    height: 800px;
+}
+
+.main-left {
+    width: 60%;
+    float: left;
+    border: solid 1px;
+    margin-top: 20px;
+    background-color: #4BC67C;
+}
+
+.main-left > h2 {
+    margin-left: 100px;
+}
+
+.main-left > p {
+    margin-left: 50px;
+}
+
+.main-right {
+    width: 33%;
+    float: right;
+    border: solid 1px;
+    margin-top: -126px;
+    background-color: #4BC67C;
+}
+
+.main-right > h2 {
+    float: right;
+    margin-right: 100px;
+}
+
+#categories-list {
+    margin-top: 31px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+#categories-list li{
+    list-style-type: none;
+}
+
+#categories-list a {
+    text-decoration: none;
+    color: #D13C3A;
+}
+
+#categories-list a:hover {
+    color: #af5248;
+}
